@@ -29,10 +29,8 @@ $('.btn').click(function(){
     // This method accepts a JSON object, which contains the
     // message response
 
-
     alert('clicked');
-
-    //
+    
     var onSuccess = function(data) {
         alert('message: ' + data.message);
     };
