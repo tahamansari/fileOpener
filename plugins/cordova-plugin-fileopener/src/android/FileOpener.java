@@ -113,7 +113,7 @@ public class FileOpener extends CordovaPlugin {
                 if (hasMimeType(extension)) {
                     return extension;
                 } else {
-                    obj.put("message", "This extension: " + extension + " is not supported by the FileOpener plugin");
+                    obj.put("message", "This extension: " + extension + " is not Hello World supported by the FileOpener plugin");
                     callbackContext.error(obj);
                     return null;
                 }
